@@ -116,8 +116,9 @@ mvn spring-boot:run
 
 ```yaml
 feishu:
-  app-id: your-app-id
-  app-secret: your-app-secret
+  app：
+    id: your-app-id
+    secret: your-app-secret
   enabled: true
 ```
 
@@ -195,26 +196,13 @@ llm:
 - ✅ 测试用例生成（基于规则引擎）
 - ✅ 测试用例表格展示
 - ✅ 导出功能
+- ✅ 飞书文档API完整集成
+- ✅ 集成真实的LLM API（采用火山引擎）
 
-### 待实现功能（加分项）
-- [ ] 飞书文档API完整集成
-- [ ] 集成真实的LLM API（OpenAI/Claude等）
+### 待实现功能
 - [ ] 支持UI图和流程图的解析
 - [ ] 思维导图形式的测试用例展示
 - [ ] 测试用例编辑功能
 - [ ] 测试用例模板自定义
 
-## 注意事项
-
-1. **飞书API集成**：当前飞书文档功能为框架代码，需要根据飞书开放平台文档完善实现
-2. **LLM集成**：当前使用规则引擎生成测试用例，可以替换为真实的AI模型API
-3. **测试用例质量**：生成的测试用例仅供参考，建议人工审核和完善
-
-## 许可证
-
-MIT License
-
-## 贡献
-
-欢迎提交Issue和Pull Request！
 
