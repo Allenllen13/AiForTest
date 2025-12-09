@@ -1,0 +1,13 @@
+com\example\service\FeishuService.class
+com\example\controller\TestCaseController.class
+com\example\service\TestCaseServiceOld.class
+com\example\model\TestCase.class
+com\example\AiForTestApplication.class
+com\example\config\WebConfig.class
+com\example\dto\FeishuRequest.class
+com\example\service\TestCaseService$1.class
+com\example\dto\GenerateResponse.class
+com\example\dto\FeishuResponse.class
+com\example\service\TestCaseService.class
+com\example\controller\FeishuController.class
+com\example\dto\GenerateRequest.class
