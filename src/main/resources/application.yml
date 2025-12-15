@@ -16,8 +16,8 @@ spring:
 # 飞书API配置（可选，用于获取飞书文档内容）
 feishu:
   app:
-    id: cli_a9bd06f66cf9dcb2
-    secret: oDC35GShpM4mgemgEc3aQdlHliZN5XmD
+    id: 
+    secret: 
   enabled: true
 
 # 大模型配置
@@ -26,7 +26,7 @@ volc:
     enabled: true # 默认关闭大模型调用，避免未配置导致报错
 # 0. 火山引擎配置
     base-url: https://ark.cn-beijing.volces.com/api/v3
-    api-key: 65c721fe-b7e3-4429-9d9c-23421201bdb3
+    api-key: 
 #    model: doubao-seed-1-6-251015 #四分钟返回九十个
 #    model: doubao-seed-1-6-flash-250828 #两分半101条
     model: deepseek-v3-1-terminus
